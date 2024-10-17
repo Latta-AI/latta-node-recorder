@@ -1,13 +1,13 @@
 {
   "name": "@latta/nestjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Latta logo](../../docs/logo.svg)",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "dev": "rollup -c -w --bundleConfigAsCjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Latta AI s.r.o.",
   "license": "ISC",
   "main": "dist/index.js",
   "dependencies": {
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Latta-AI/latta-node-recorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Latta-AI/latta-node-recorder/issues"
+  },
+  "homepage": "https://github.com/Latta-AI/latta-node-recorder#readme"
 }

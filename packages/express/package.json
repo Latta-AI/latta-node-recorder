@@ -1,13 +1,13 @@
 {
   "name": "@latta/express",
   "version": "0.0.1",
-  "description": "",
+  "description": "![Latta logo](../../docs/logo.svg)",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "dev": "rollup -c -w --bundleConfigAsCjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Latta AI s.r.o.",
   "license": "ISC",
   "dependencies": {
     "@latta/core": "*",
@@ -17,5 +17,13 @@
     "@types/express": "^5.0.0"
   },
   "main": "dist/index.js",
-  "module": "dist/index.mjs"
+  "module": "dist/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Latta-AI/latta-node-recorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Latta-AI/latta-node-recorder/issues"
+  },
+  "homepage": "https://github.com/Latta-AI/latta-node-recorder#readme"
 }
