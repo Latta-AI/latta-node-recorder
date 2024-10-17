@@ -1,0 +1,24 @@
+{
+  "name": "@latta/nestjs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@latta/core": "*"
+  },
+  "peerDependencies": {
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/common": "^10.0.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}

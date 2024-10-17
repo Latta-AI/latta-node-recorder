@@ -1,0 +1,21 @@
+{
+  "name": "@latta/express",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@latta/core": "*",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs"
+}

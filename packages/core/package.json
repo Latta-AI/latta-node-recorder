@@ -1,0 +1,21 @@
+{
+  "name": "@latta/core",
+  "version": "0.0.1",
+  "keywords": [],
+  "author": "Latta AI",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Latta-AI/latta-node-recorder.git"
+  },
+  "description": ""
+}
