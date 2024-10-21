@@ -12,7 +12,7 @@ const originalFetch = fetch;
 type RequestMethod = "GET" | "POST" | "PUT" | "DELETE";
 
 export class LattaAPI {
-  private readonly apiUrl = "http://localhost:3000/v1";
+  private readonly apiUrl = process.env.API_URL;
 
   constructor(private readonly apiKey: string) {}
 
